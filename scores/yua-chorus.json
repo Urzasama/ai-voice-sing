@@ -1,0 +1,33 @@
+{
+  "title": "雨爱 (Rainie Yang) - chorus, first half",
+  "source": "Hand-transcribed melody for the 23-syllable chorus line '雨爱的秘密 能一直延续 我相信我将会看到 彩虹的美丽'.",
+  "comment": "notes = scientific pitch names, durs = seconds. Written by ear, not extracted automatically; replace pitches/durations to make your own arrangement.",
+  "syllables": [
+    { "lyric": "雨", "notes": ["B4"],  "durs": [0.60] },
+    { "lyric": "爱", "notes": ["E4"],  "durs": [0.30] },
+    { "lyric": "的", "notes": ["E4"],  "durs": [0.30] },
+    { "lyric": "秘", "notes": ["D#5"], "durs": [0.60] },
+    { "lyric": "密", "notes": ["E4"],  "durs": [0.60] },
+    { "rest": 0.15 },
+    { "lyric": "能", "notes": ["C#5"], "durs": [0.30] },
+    { "lyric": "一", "notes": ["B4"],  "durs": [0.30] },
+    { "lyric": "直", "notes": ["E4"],  "durs": [0.30] },
+    { "lyric": "延", "notes": ["D#5"], "durs": [0.30] },
+    { "lyric": "续", "notes": ["E4"],  "durs": [1.20] },
+    { "rest": 0.25 },
+    { "lyric": "我", "notes": ["G#4"], "durs": [0.60] },
+    { "lyric": "相", "notes": ["C#5"], "durs": [0.30] },
+    { "lyric": "信", "notes": ["C#5"], "durs": [0.30] },
+    { "lyric": "我", "notes": ["E4"],  "durs": [0.30] },
+    { "lyric": "将", "notes": ["D#5"], "durs": [0.30] },
+    { "lyric": "会", "notes": ["E4"],  "durs": [0.60] },
+    { "rest": 0.15 },
+    { "lyric": "看", "notes": ["G#4"], "durs": [0.30] },
+    { "lyric": "到", "notes": ["C#5"], "durs": [0.30] },
+    { "lyric": "彩", "notes": ["C#5"], "durs": [0.30] },
+    { "lyric": "虹", "notes": ["E4"],  "durs": [0.60] },
+    { "lyric": "的", "notes": ["D#5"], "durs": [0.30] },
+    { "lyric": "美", "notes": ["E4"],  "durs": [0.30] },
+    { "lyric": "丽", "notes": ["E4"],  "durs": [1.20] }
+  ]
+}
