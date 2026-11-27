@@ -1,0 +1,20 @@
+# Optional extras, only needed if you want the extra pipeline stages.
+# Verified in a SECOND virtualenv (Python 3.12.14) on 2026-11-27:
+#   torch 2.15.0+cpu, demucs 4.1.0, librosa 1.0.0, scipy 1.18.1, numpy 2.5.4,
+#   tqdm 4.70.1, PyYAML 6.0.3, Pillow 13.0.0
+#
+# demucs  -> vocal/instrumental separation (scripts/separate.py, scripts/cover.py)
+# librosa -> melody drafting from a vocal stem (scripts/song_to_score.py)
+#
+# CPU-only torch on Linux/Windows: pip install torch==2.15.0 \
+#     --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+demucs==4.1.0
+librosa==1.0.0
+scipy==1.18.1
+tqdm==4.70.1
+
+# numpy is intentionally left out: requirements.txt pins 2.3.5 while this stack
+# was verified with 2.5.4.  If pip complains, install core and optional deps in
+# separate virtualenvs, or let pip resolve numpy for you:
+#   pip install -r requirements.txt numpy==2.5.4
